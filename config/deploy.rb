@@ -13,7 +13,7 @@ host = '184.106.165.121'
 
 set :application, "countdown"
 set :repository,  "git@github.com:iovino/wf-widgets.git"
-set :deploy_to,   "/home/products"
+set :deploy_to,   "/home/widgets"
 set :user,        'root'
 set :scm,         'git'
 set :keep_releases, 5                               # max number of release 

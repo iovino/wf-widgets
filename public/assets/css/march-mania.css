@@ -1,0 +1,55 @@
+#wf_holiday_countdown {
+  width: 300px;
+  height: 600px; }
+  #wf_holiday_countdown #wf_holiday_header {
+    background: #d6d4ce url("../imgs/march-mania/header.png");
+    width: 300px;
+    height: 99px;
+    margin-bottom: 1px; }
+    #wf_holiday_countdown #wf_holiday_header #wf_countdown {
+      display: none; }
+  #wf_holiday_countdown #wf_widget_by {
+    font-family: "Helvetica", Arial,sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 81px; }
+    #wf_holiday_countdown #wf_widget_by span {
+      font-weight: bold; }
+  #wf_holiday_countdown #wf_holiday_content {
+    width: 300px;
+    min-height: 250px; }
+    #wf_holiday_countdown #wf_holiday_content ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px; }
+      #wf_holiday_countdown #wf_holiday_content ul li {
+        height: 63px;
+        overflow: hidden;
+        padding: 10px 10px;
+        text-shadow: 1px 1px #ffffff; }
+        #wf_holiday_countdown #wf_holiday_content ul li img {
+          margin: 0 10px 0 0; }
+        #wf_holiday_countdown #wf_holiday_content ul li a:link.single {
+          position: relative;
+          top: 20px; }
+        #wf_holiday_countdown #wf_holiday_content ul li a:link, #wf_holiday_countdown #wf_holiday_content ul li a:visited, #wf_holiday_countdown #wf_holiday_content ul li a:hover {
+          position: relative;
+          top: 13px;
+          color: #000000;
+          text-decoration: none;
+          font-family: Helvetica,Arial,sans-serif;
+          font-size: 15px;
+          font-weight: bold; }
+      #wf_holiday_countdown #wf_holiday_content ul li.alt1, #wf_holiday_countdown #wf_holiday_content ul li.alt3 {
+        background: #f0f0f0;
+        border-bottom: 2px solid #ffffff; }
+      #wf_holiday_countdown #wf_holiday_content ul li.alt2 {
+        background: #f0f0f0;
+        border-bottom: 2px solid #ffffff; }
+
+#wf_holiday_footer {
+  width: 300px;
+  height: 250px; }

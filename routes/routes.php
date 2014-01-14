@@ -40,9 +40,9 @@ $app->get('/examples/:page', function ($page) use ($app) {
 /**
  * The latest JS file
  */
-$app->get('/v2/widget.js', function () use ($app) {
+$app->get('/v2/widget.min.js', function () use ($app) {
     $app->contentType('application/javascript');
-    $app->render('widget.js.php', array('app' => $app));
+    $app->render('widgets_js/v2.php', array('app' => $app));
 });
 
 /**

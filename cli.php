@@ -175,7 +175,7 @@ class CliWidget {
      * @return string
      */
     private function prepWidgetExample($version) {
-        return '<!-- Womensforum.com - ' . $this->titles['name'] . ' v' . $version . ' -->\n<script type="text/javascript" src="http://<?php echo $_SERVER[\'HTTP_HOST\'] ?>/v2/widget.js"></script>\n<div id="wf_widget"></div>\n<script>Widget.Load("' . $this->hashes[$version] . '", "wf_widget");</script>';
+        return '<!-- Womensforum.com - ' . $this->titles['name'] . ' v' . $version . ' -->\n<script type="text/javascript" src="http://<?php echo $_SERVER[\'HTTP_HOST\'] ?>/v2/widget.min.js"></script>\n<div id="wf_widget"></div>\n<script>Widget.Load("' . $this->hashes[$version] . '", "wf_widget");</script>';
     }
 }
 

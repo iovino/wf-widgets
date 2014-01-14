@@ -18,7 +18,7 @@ $app->configureMode('production', function () use ($app) {
 // local configuration
 $app->configureMode('local', function () use ($app) {
     $app->config('base_url', 'http://widgets');
-    $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.js');
+    $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
     $app->config('debug', true);
 });
 
@@ -29,7 +29,7 @@ $app->configureMode('local', function () use ($app) {
 // Ken Iovino
 $app->configureMode('iovino', function () use ($app) {
     $app->config('base_url', 'http://widgets');
-    $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.js');
+    $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
     $app->config('debug', true);
 
 });

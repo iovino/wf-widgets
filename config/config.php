@@ -11,7 +11,7 @@ $app->config('thumb_path', $app->config('app_path') . '/public' . $app->config('
 // production configuration
 $app->configureMode('production', function () use ($app) {
     $app->config('base_url', 'http://widgets.womensforum.com');
-    $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.js');
+    $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
     $app->config('debug', false);
 });
 

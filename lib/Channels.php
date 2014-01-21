@@ -23,7 +23,8 @@ class Channels {
         'new-year-new-you',
         'valentines-day',
         'the-heart',
-        'healthy-year-healthy-you'
+        'healthy-year-healthy-you',
+        'easter-passover'
     );
 
     /**
@@ -162,10 +163,12 @@ class Channels {
     private function save_remote_image($url) {
         $name = array_pop(explode("/", $url));
         $data = file_get_contents($url);
-        $file = fopen($this->app->config('thumb_path') . "/$name", 'w+');
+        $file = $this->app->config('thumb_path') . "/$name";
 
-        fwrite($file, $data);
-        fclose($file);
+        $hand = fopen($file, 'w+');
+        fwrite($hand, $data);
+        fclose($hand);
+        chmod($file, 0777);
 
         return $name;
     }

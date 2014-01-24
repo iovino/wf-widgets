@@ -110,6 +110,10 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
                 </ul>
             </li>
 
+            <li class="<?php echo ($_REQUEST['do'] == 'backtoschool' ? ' active' : '') ?>">
+                <a href="?do=backtoschool">Back To School</a>
+            </li>
+
         </ul>
 
         <div class="tab-content">
@@ -155,6 +159,9 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
                         <?php include('../views/homepage/superbowl.php'); ?>
                     <?php endif ?>
 
+                    <?php if ($_REQUEST['do'] == 'backtoschool') : ?>
+                        <?php include('../views/homepage/backtoschool.php'); ?>
+                    <?php endif ?>
                 </div>
             </div>
         </div> <!-- /tab-content -->

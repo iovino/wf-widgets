@@ -14,10 +14,11 @@
     </div>
     <div id="wf_widget_content">
         <ul class="bjqs">
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/a-to-z-nail-art.jpg" border="0" title="This is a caption for a-to-z-nail-art" /></a></li>
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/leopardmani.jpg" border="0" title="This is a caption for leopardmani" /></a></li>
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/paper-plane-nails.jpg" border="0" title="This is a caption for paper-plane-nails" /></a></li>
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/tribal-nails.jpg" border="0" title="This is a caption for tribal-nails" /></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/a-to-z-nail-art.jpg" border="0" title="Nail Art, A to Z Pedicure" /></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/leopardmani.jpg" border="0" title="Nail Art, Rainbow Leopard" /></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/paper-plane-nails.jpg" border="0" title="Nail Art, Paper Planes" /></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/tribal-nails.jpg" border="0" title="Nail Art, Coral Tribal" /></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/cat-nail-art.jpg" border="0" title="Nail Art, Polka Dot Cat" /></a></li>
         </ul>
     </div>
     <div id="wf_widget_footer">

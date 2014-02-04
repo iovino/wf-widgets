@@ -98,3 +98,63 @@
         </div>
     </div>
 <?php endif ?>
+
+<?php if ($_REQUEST['show'] == 'olympics') : ?>
+    <div class="row">
+        <h2 class="text-center">Olympics Content</h2>
+        <div class="col-lg-6 text-center">
+            <h3>Olympics Content w/ 300x250 Ad</h3>
+            <!-- Womensforum.com - Olympics Content w/ 300x250 Ad -->
+            <script type="text/javascript" src="<?php echo $app->config('widget_js_url'); ?>"></script>
+            <div id="wf_widget_v1"></div>
+            <script>com.womensforum.widgets.load("35be780b7770b9a72ab5b545b943fbce", "wf_widget_v1");</script>
+        </div>
+        <div class="col-lg-6 text-center">
+            <h3>Olympics Content w/ Video + Pre-roll</h3>
+            <!-- Womensforum.com - Olympics Content w/ Video + Pre-roll -->
+            <script type="text/javascript" src="<?php echo $app->config('widget_js_url'); ?>"></script>
+            <div id="wf_widget_v2"></div>
+            <script>com.womensforum.widgets.load("f876c64dea956585c16925273362eee9", "wf_widget_v2");</script>
+        </div>
+    </div>
+<?php endif ?>
+
+<?php if ($_REQUEST['show'] == 'valentines') : ?>
+    <div class="row">
+        <h2 class="text-center">Valentines Content</h2>
+        <div class="col-lg-6 text-center">
+            <h3>Valentines Content w/ 300x250 Ad</h3>
+            <!-- Womensforum.com - Valentines Content w/ 300x250 Ad -->
+            <script type="text/javascript" src="<?php echo $app->config('widget_js_url'); ?>"></script>
+            <div id="wf_widget_v1"></div>
+            <script>com.womensforum.widgets.load("84ef062c123a5552e9520fa71a963ce6", "wf_widget_v1");</script>
+        </div>
+        <div class="col-lg-6 text-center">
+            <h3>Valentines Content w/ Video + Pre-roll</h3>
+            <!-- Womensforum.com - Valentines Content w/ Video + Pre-roll -->
+            <script type="text/javascript" src="<?php echo $app->config('widget_js_url'); ?>"></script>
+            <div id="wf_widget_v2"></div>
+            <script>com.womensforum.widgets.load("523ded08b89f8136e3353e98369d86fb", "wf_widget_v2");</script>
+        </div>
+    </div>
+<?php endif ?>
+
+<?php if ($_REQUEST['show'] == 'redcarpet') : ?>
+    <div class="row">
+        <h2 class="text-center">Red Carpet Content</h2>
+        <div class="col-lg-6 text-center">
+            <h3>Red Carpet Content w/ 300x250 Ad</h3>
+            <!-- Womensforum.com - Red Carpet Content w/ 300x250 Ad -->
+            <script type="text/javascript" src="<?php echo $app->config('widget_js_url'); ?>"></script>
+            <div id="wf_widget_v1"></div>
+            <script>com.womensforum.widgets.load("c8d8bfe991db8b241b10c733e4cc5bdd", "wf_widget_v1");</script>
+        </div>
+        <div class="col-lg-6 text-center">
+            <h3>Red Carpet Content w/ Video + Pre-roll</h3>
+            <!-- Womensforum.com - Red Carpet Content w/ Video + Pre-roll -->
+            <script type="text/javascript" src="<?php echo $app->config('widget_js_url'); ?>"></script>
+            <div id="wf_widget_v2"></div>
+            <script>com.womensforum.widgets.load("e1b775439f05636f03882154e3b2d554", "wf_widget_v2");</script>
+        </div>
+    </div>
+<?php endif ?>

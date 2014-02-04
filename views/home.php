@@ -1,7 +1,7 @@
 <?php
 
-if (empty($_REQUEST['do'])) {$_REQUEST['do'] = 'olympics';}
-if (empty($_REQUEST['show'])) {$_REQUEST['show'] = 'decor';}
+if (empty($_REQUEST['do'])) {$_REQUEST['do'] = 'womensforum';}
+if (empty($_REQUEST['show'])) {$_REQUEST['show'] = 'olympics';}
 
 $social_tabs = array('twitter', 'facebook', 'pinterest');
 $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
@@ -24,7 +24,7 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
             padding-bottom: 40px;
         }
 
-            /* Custom container */
+        /* Custom container */
         .container-narrow {
             margin: 0 auto;
             max-width: 700px;
@@ -33,7 +33,7 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
             margin: 30px 0;
         }
 
-            /* Main marketing message and sign up button */
+        /* Main marketing message and sign up button */
         .jumbotron {
             margin: 60px 0;
             text-align: center;
@@ -47,7 +47,7 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
             padding: 14px 24px;
         }
 
-            /* Supporting marketing content */
+        /* Supporting marketing content */
         .marketing {
             margin: 60px 0;
         }
@@ -68,9 +68,22 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
 
     <div class="row-fluid">
         <ul class="nav nav-tabs" id="myTab">
+            <li class="dropdown<?php echo ($_REQUEST['do'] == 'womensforum' ? ' active' : '') ?>">
+                <a href="#" id="content_tab" class="dropdown-toggle" data-toggle="dropdown">Womensforum Content <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="content_tab">
+                    <li><a href="?do=womensforum&show=olympics" tabindex="-1">Olympics</a></li>
+                    <li><a href="?do=womensforum&show=valentines" tabindex="-1">Valentines</a></li>
+                    <li><a href="?do=womensforum&show=redcarpet" tabindex="-1">Redcarpet</a></li>
+                </ul>
+            </li>
 
-            <li class="<?php echo ($_REQUEST['do'] == 'olympics' ? ' active' : '') ?>">
-                <a href="?do=olympics">Olympics Content</a>
+            <li class="dropdown<?php echo ($_REQUEST['do'] == 'video' ? ' active' : '') ?>">
+                <a href="#" id="video_tab" class="dropdown-toggle" data-toggle="dropdown">Womensforum Video <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="video_tab">
+                    <li><a href="?do=video&show=olympics" tabindex="-1">Olympics</a></li>
+                    <li><a href="?do=video&show=valentines" tabindex="-1">Valentines</a></li>
+                    <li><a href="?do=video&show=redcarpet" tabindex="-1">Redcarpet</a></li>
+                </ul>
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $social_tabs) ? ' active' : '') ?>">
@@ -144,10 +157,6 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
 
                     <?php if ($_REQUEST['do'] == 'backtoschool') : ?>
                         <?php include('../views/homepage/backtoschool.php'); ?>
-                    <?php endif ?>
-
-                    <?php if ($_REQUEST['do'] == 'olympics') : ?>
-                        <?php include('../views/homepage/sochi.php'); ?>
                     <?php endif ?>
                 </div>
             </div>

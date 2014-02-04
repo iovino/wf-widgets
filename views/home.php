@@ -1,6 +1,6 @@
 <?php
 
-if (empty($_REQUEST['do'])) {$_REQUEST['do'] = 'womensforum';}
+if (empty($_REQUEST['do'])) {$_REQUEST['do'] = 'olympics';}
 if (empty($_REQUEST['show'])) {$_REQUEST['show'] = 'decor';}
 
 $social_tabs = array('twitter', 'facebook', 'pinterest');
@@ -68,26 +68,9 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
 
     <div class="row-fluid">
         <ul class="nav nav-tabs" id="myTab">
-            <li class="dropdown<?php echo ($_REQUEST['do'] == 'womensforum' ? ' active' : '') ?>">
-                <a href="#" id="content_tab" class="dropdown-toggle" data-toggle="dropdown">Womensforum Content <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="content_tab">
-                    <li><a href="?do=womensforum&show=decor" tabindex="-1"> Holiday Decor</a></li>
-                    <li><a href="?do=womensforum&show=recipes" tabindex="-1"> Holiday Recipes</a></li>
-                    <li><a href="?do=womensforum&show=shopping" tabindex="-1">Holiday Shopping</a></li>
-                    <li><a href="?do=womensforum&show=fashion" tabindex="-1">Holiday Fashion</a></li>
-                    <li><a href="?do=womensforum&show=traditions" tabindex="-1">Holiday Healthy Traditions</a></li>
-                </ul>
-            </li>
 
-            <li class="dropdown<?php echo ($_REQUEST['do'] == 'video' ? ' active' : '') ?>">
-                <a href="#" id="video_tab" class="dropdown-toggle" data-toggle="dropdown">Womensforum Video <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="video_tab">
-                    <li><a href="?do=video&show=all" tabindex="-1">All Holiday Videos</a></li>
-                    <li><a href="?do=video&show=food" tabindex="-1">Holiday Food</a></li>
-                    <li><a href="?do=video&show=decorating" tabindex="-1">Holiday Decorating</a></li>
-                    <li><a href="?do=video&show=shopping" tabindex="-1">Holiday Shopping</a></li>
-                    <li><a href="?do=video&show=healthy" tabindex="-1">Holiday Healthy Living</a></li>
-                </ul>
+            <li class="<?php echo ($_REQUEST['do'] == 'olympics' ? ' active' : '') ?>">
+                <a href="?do=olympics">Olympics Content</a>
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $social_tabs) ? ' active' : '') ?>">
@@ -161,6 +144,10 @@ $q1_tabs     = array('marchmad', 'newyears', 'redcarpet', 'sochi', 'superbowl');
 
                     <?php if ($_REQUEST['do'] == 'backtoschool') : ?>
                         <?php include('../views/homepage/backtoschool.php'); ?>
+                    <?php endif ?>
+
+                    <?php if ($_REQUEST['do'] == 'olympics') : ?>
+                        <?php include('../views/homepage/sochi.php'); ?>
                     <?php endif ?>
                 </div>
             </div>

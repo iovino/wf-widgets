@@ -32,7 +32,7 @@
 <script type="text/javascript">
     jQuery(document).ready(function($) {
         $('#wf_widget_content').bjqs({
-            height      : 300,
+            height      : 250,
             width       : 300,
             showmarkers : false
         });

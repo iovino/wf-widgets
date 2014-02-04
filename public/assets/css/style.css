@@ -1,0 +1,98 @@
+#wf_widget_countdown {
+  width: 300px;
+  height: 600px; }
+  #wf_widget_countdown #wf_widget_header {
+    background: #d6d4ce url("../imgs/style/header.png");
+    width: 300px;
+    height: 99px;
+    margin-bottom: 1px; }
+    #wf_widget_countdown #wf_widget_header #wf_countdown {
+      display: none; }
+  #wf_widget_countdown #wf_widget_by {
+    font-family: "Helvetica", Arial,sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 81px; }
+    #wf_widget_countdown #wf_widget_by span {
+      font-weight: bold; }
+  #wf_widget_countdown #wf_widget_content {
+    width: 300px;
+    min-height: 250px; }
+    #wf_widget_countdown #wf_widget_content ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px; }
+      #wf_widget_countdown #wf_widget_content ul li {
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px; }
+
+#wf_widget_footer {
+  width: 300px;
+  height: 250px; }
+
+ul.bjqs {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: none; }
+
+li.bjqs-slide {
+  position: absolute;
+  display: none; }
+
+ul.bjqs-controls {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 9999; }
+
+ul.bjqs-controls.v-centered li a {
+  position: absolute; }
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+  right: 0; }
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+  left: 0; }
+
+p.bjqs-caption {
+  background: rgba(255, 255, 255, 0.7);
+  display: block;
+  width: 290px;
+  margin: 0;
+  padding: 10px 5px;
+  position: absolute;
+  bottom: 0;
+  text-shadow: 0px 1px #e8e8e8;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+
+ul.bjqs-controls.v-centered li a {
+  width: 30px;
+  height: 30px;
+  margin: -20px 0 0;
+  display: block;
+  background: url("../imgs/style/prev_next.png") no-repeat 0 0;
+  position: absolute;
+  cursor: pointer;
+  text-indent: -9999px;
+  opacity: 0.8; }
+
+ul.bjqs-controls.v-centered li a:hover {
+  opacity: 1; }
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+  background-position: 0 100;
+  left: 5px; }
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+  background-position: 100% 0;
+  left: 265px; }

@@ -26,7 +26,8 @@ class Channels {
         'healthy-year-healthy-you',
         'easter-passover',
         'moms-and-parenting',
-        'diy-diaries'
+        'diy-diaries',
+        'mom-talk-with-jodi'
     );
 
     /**

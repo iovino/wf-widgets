@@ -25,12 +25,13 @@ class Channels {
         'the-heart',
         'healthy-year-healthy-you',
         'easter-passover',
-        'moms-and-parenting',
+        'moms-and-parenting', // TODO: check possible fatal html error when cron runs
         'diy-diaries',
         'mom-talk-with-jodi',
         'served',
         'social-buzz',
-        'fit-fix'
+        'fit-fix',
+        'trend'
     );
 
     /**

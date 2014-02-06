@@ -24,7 +24,8 @@ class Channels {
         'valentines-day',
         'the-heart',
         'healthy-year-healthy-you',
-        'easter-passover'
+        'easter-passover',
+        'moms-and-parenting'
     );
 
     /**
@@ -57,6 +58,7 @@ class Channels {
                 mail("ken@escalatemedia.com", "Countdown Unit Error", $channel_error);
                 continue;
             }
+
 
             $html = "";
             $i    = 0;

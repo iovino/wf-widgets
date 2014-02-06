@@ -28,7 +28,8 @@ class Channels {
         'moms-and-parenting',
         'diy-diaries',
         'mom-talk-with-jodi',
-        'served'
+        'served',
+        'social-buzz'
     );
 
     /**

@@ -27,7 +27,8 @@ class Channels {
         'easter-passover',
         'moms-and-parenting',
         'diy-diaries',
-        'mom-talk-with-jodi'
+        'mom-talk-with-jodi',
+        'served'
     );
 
     /**

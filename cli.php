@@ -165,7 +165,7 @@ class CliWidget {
      * @return string
      */
     private function prepWidgetView() {
-        return '<!DOCTYPE html>\n<html>\n<head>\n\t<?php echo $this->helper->renderCss("main"); ?>\n\t<?php echo $this->helper->renderCss("' . $this->titles['slug'] . '"); ?>\n</head>\n<body>\n\t<div id="wf_holiday_countdown">\n\t\t<div id="wf_holiday_header">\n\t\t\t<div id="wf_widget_by">Brought to you by <span>' . $this->titles['name'] . '</span></div>\n\t\t</div>\n\t\t<div id="wf_holiday_content">\n\t\t\t' . $this->titles['name'] . ' top\n\t\t</div>\n\t\t<div id="wf_holiday_footer">\n\t\t\t' . $this->titles['name'] . ' bot\n\t\t</div>\n\t</div>\n</body>\n</html>\n';
+        return '<!DOCTYPE html>\n<html>\n<head>\n\t<?php echo $this->helper->renderCss("main"); ?>\n\t<?php echo $this->helper->renderCss("' . $this->titles['slug'] . '"); ?>\n</head>\n<body>\n\t<div id="wf_widget_countdown">\n\t\t<div id="wf_widget_header">\n\t\t\t<div id="wf_widget_by">Brought to you by <span>Womensforum.com </span></div>\n\t\t</div>\n\t\t<div id="wf_widget_content">\n\t\t\t' . $this->titles['name'] . ' top\n\t\t</div>\n\t\t<div id="wf_widget_footer">\n\t\t\t' . $this->titles['name'] . ' bot\n\t\t</div>\n\t</div>\n</body>\n</html>\n';
     }
 
     /**

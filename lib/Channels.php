@@ -25,7 +25,8 @@ class Channels {
         'the-heart',
         'healthy-year-healthy-you',
         'easter-passover',
-        'moms-and-parenting'
+        'moms-and-parenting',
+        'diy-diaries'
     );
 
     /**

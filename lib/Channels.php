@@ -29,7 +29,8 @@ class Channels {
         'diy-diaries',
         'mom-talk-with-jodi',
         'served',
-        'social-buzz'
+        'social-buzz',
+        'fit-fix'
     );
 
     /**

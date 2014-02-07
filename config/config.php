@@ -7,6 +7,29 @@ $app->config('feed_url'  , 'http://www.womensforum.com/%s/feed/rss.html');
 $app->config('app_path'  , dirname(__DIR__));
 $app->config('thumb_dir' , '/assets/imgs/thumbnails');
 $app->config('thumb_path', $app->config('app_path') . '/public' . $app->config('thumb_dir'));
+$app->config('channels', array(
+    'holiday-decor',
+    'holiday-recipes',
+    'holiday-shopping',
+    'holiday-fashion',
+    'family-traditions',
+    'march-mania',
+    'tailgating',
+    'olympics',
+    'red-carpet-showdown',
+    'new-year-new-you',
+    'valentines-day',
+    'the-heart',
+    'healthy-year-healthy-you',
+    'easter-passover',
+    'moms-and-parenting',
+    'diy-diaries',
+    'mom-talk-with-jodi',
+    'served',
+    'social-buzz',
+    'fit-fix',
+    'trend'
+));
 
 // production configuration
 $app->configureMode('production', function () use ($app) {

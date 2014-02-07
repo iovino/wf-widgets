@@ -10,29 +10,7 @@ class Channels {
      *
      * @var array
      */
-    private $channels = array(
-        'holiday-decor',
-        'holiday-recipes',
-        'holiday-shopping',
-        'holiday-fashion',
-        'family-traditions',
-        'march-mania',
-        'tailgating',
-        'olympics',
-        'red-carpet-showdown',
-        'new-year-new-you',
-        'valentines-day',
-        'the-heart',
-        'healthy-year-healthy-you',
-        'easter-passover',
-        // 'moms-and-parenting', // TODO: check possible fatal html error when cron runs
-        'diy-diaries',
-        'mom-talk-with-jodi',
-        'served',
-        'social-buzz',
-        'fit-fix',
-        'trend'
-    );
+    private $channels = array();
 
     /**
      * The main application object
@@ -47,7 +25,8 @@ class Channels {
      * @param Slim $app
      */
     public function __construct(Slim $app) {
-        $this->app = $app;
+        $this->app      = $app;
+        $this->channels = $this->app->config('channels');
     }
 
     /**

@@ -15,7 +15,7 @@
     <div id="wf_widget_footer">
         <script src='http://cdn.onescreen.net/os/static/apps/2.0/_onescreen.js'></script>
         <div id='os_dmp_embed'></div>
-        <script>com.onescreen.widgets.load('16655-e9e522ecb875699843f3c1c7feea8821', 'os_dmp_embed');
+        <script>com.onescreen.widgets.load('16651-e7a26d63e27fe5be2bcffa505e6c7e8f', 'os_dmp_embed');
         </script>
         <noscript>This application requires JavaScript.</noscript>
     </div>

@@ -14,11 +14,11 @@
     </div>
     <div id="wf_widget_content">
         <ul class="bjqs">
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/a-to-z-nail-art.jpg" border="0" title="Nail Art, A to Z Pedicure" /></a></li>
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/leopardmani.jpg" border="0" title="Nail Art, Rainbow Leopard" /></a></li>
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/paper-plane-nails.jpg" border="0" title="Nail Art, Paper Planes" /></a></li>
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/tribal-nails.jpg" border="0" title="Nail Art, Coral Tribal" /></a></li>
-            <li><a href="#" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/cat-nail-art.jpg" border="0" title="Nail Art, Polka Dot Cat" /></a></li>
+            <li><a href="http://www.womensforum.com/runway-ready-nails.html" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/a-to-z-nail-art.jpg" border="0" title="Nail Art, A to Z Pedicure" /></a></li>
+            <li><a href="http://www.womensforum.com/runway-ready-nails.html" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/leopardmani.jpg" border="0" title="Nail Art, Rainbow Leopard" /></a></li>
+            <li><a href="http://www.womensforum.com/runway-ready-nails.html" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/paper-plane-nails.jpg" border="0" title="Nail Art, Paper Planes" /></a></li>
+            <li><a href="http://www.womensforum.com/runway-ready-nails.html" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/tribal-nails.jpg" border="0" title="Nail Art, Coral Tribal" /></a></li>
+            <li><a href="http://www.womensforum.com/runway-ready-nails.html" target="_blank"><img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/style/slides/cat-nail-art.jpg" border="0" title="Nail Art, Polka Dot Cat" /></a></li>
         </ul>
     </div>
     <div id="wf_widget_footer">

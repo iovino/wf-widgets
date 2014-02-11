@@ -29,7 +29,8 @@ $app->config('channels', array(
     'social-buzz',
     'fit-fix',
     'trend',
-    'kitchen-courses'
+    'kitchen-courses',
+    'spring-fashion'
 ));
 
 // production configuration

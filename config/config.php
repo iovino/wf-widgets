@@ -30,7 +30,8 @@ $app->config('channels', array(
     'fit-fix',
     'trend',
     'kitchen-courses',
-    'spring-fashion'
+    'spring-fashion',
+    'inspiring-women'
 ));
 
 // production configuration

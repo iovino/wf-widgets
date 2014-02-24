@@ -29,7 +29,9 @@ $app->config('channels', array(
     'trend',
     'kitchen-courses',
     'spring-fashion',
-    'inspiring-women'
+    'inspiring-women',
+    'mothers-day',
+    'fathers-day'
 ));
 
 // production configuration

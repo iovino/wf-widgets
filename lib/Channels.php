@@ -48,6 +48,8 @@ class Channels {
             $html = "";
             $i    = 0;
 
+            echo "Fetching $channel <br>\n";
+
             foreach ($xml->channel->item as $item) {
                 $i++; if ($i <= 3) {
                     $html .= $this->build_item_html($item, $i);

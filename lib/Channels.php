@@ -190,7 +190,6 @@ class Channels {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
         $contents     = curl_exec($ch);
-        echo $contents;exit;
         $http_code    = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $content_type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
 

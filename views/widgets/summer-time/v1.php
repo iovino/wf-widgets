@@ -7,7 +7,7 @@
 <body>
 	<div id="wf_widget_countdown">
 		<div id="wf_widget_header">
-			<div id="wf_widget_by">Brought to you by <span>Womensforum.com </span></div>
+			<div id="wf_widget_by">Brought to you by <span>Coppertone</span></div>
 		</div>
 		<div id="wf_widget_content">
 

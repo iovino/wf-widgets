@@ -6,7 +6,7 @@
  * Homepage
  */
 $app->get('/', function () use ($app) {
-    $app->render('home.php', array('app' => $app));
+    $app->render('homepage/index.php', array('app' => $app));
 });
 
 /**

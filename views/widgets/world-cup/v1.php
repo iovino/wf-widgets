@@ -10,7 +10,7 @@
 			<div id="wf_widget_by">Brought to you by <span>Womensforum.com </span></div>
 		</div>
 		<div id="wf_widget_content">
-			World Cup top
+            <?php echo $this->helper->fetchChannel('world-cup.html'); ?>
 		</div>
 		<div id="wf_widget_footer">
             <script src='http://cdn.onescreen.net/os/static/apps/2.0/_onescreen.js'></script>

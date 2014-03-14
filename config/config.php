@@ -31,7 +31,8 @@ $app->config('channels', array(
     'spring-fashion',
     'inspiring-women',
     'mothers-day',
-    'fathers-day'
+    'fathers-day',
+    'world-cup'
 ));
 
 // production configuration

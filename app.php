@@ -16,5 +16,6 @@ require __DIR__ . '/routes/routes.php';
 require __DIR__ . '/lib/Widget.php';
 require __DIR__ . '/lib/Helper.php';
 require __DIR__ . '/lib/Channels.php';
+require __DIR__ . '/lib/Pollen.php';
 
 $app->run();

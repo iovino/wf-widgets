@@ -36,6 +36,9 @@ namespace :deploy do
     sudo "ln -s #{shared_path}/thumbnails #{release_path}/public/assets/imgs/thumbnails"
     sudo "chmod 0777 #{release_path}/public/assets/imgs/thumbnails"
 
+    sudo "ln -s #{shared_path}/pollen-maps #{release_path}/public/assets/imgs/spring-fling/pollen-maps"
+    sudo "chmod 0777 #{release_path}/public/assets/imgs/spring-fling/pollen-maps"
+
     puts "Linked shared directories"
   end
 

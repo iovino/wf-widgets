@@ -65,4 +65,11 @@ $app->get('/crons/channel_cache', function () use ($app) {
     $channels->cache_channels();
 });
 
+/**
+ * The pollens map cron that get ran once a data
+ */
+$app->get('/crons/pollen-data', function () use ($app) {
+    $cron = new Pollen($app);
+    $cron->fetch_map();
+});
 

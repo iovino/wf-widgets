@@ -55,7 +55,7 @@ class Widget {
 
     /**
      * Returns the selected widget's HTML code by running the widget's view file through php's
-     * eval function and capturing rge output.
+     * eval function and capturing the output.
      *
      * @return string
      */

@@ -11,7 +11,7 @@
  * From the app's root directory:
  *  $ php cli.php newWidget [string camelcase] WidgetName [integer] Versions
  *  $ php cli.php delWidget [string camelcase] WidgetName
- *  $ php clic.php newHash
+ *  $ php cli.php newHash
  */
 class CliWidget {
     /**

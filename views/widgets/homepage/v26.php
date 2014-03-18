@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php echo $this->helper->renderCss("main"); ?>
-    <?php echo $this->helper->renderCss("better-you"); ?>
+    <?php echo $this->helper->renderCss("march-mania"); ?>
 
     <script type="text/javascript">
         (function(d){

@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php echo $this->helper->renderCss("main"); ?>
-    <?php echo $this->helper->renderCss("better-you"); ?>
+    <?php echo $this->helper->renderCss("march-mania"); ?>
 </head>
 <body>
 <div id="wf_holiday_countdown">

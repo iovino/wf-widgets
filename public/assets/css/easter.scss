@@ -13,6 +13,17 @@
     }
   }
 
+  #wf_widget_header {
+    background: #d6d4ce url("../imgs/easter/header2.png");
+    width: 300px;
+    height: 100px;
+    margin-bottom: 1px;
+
+    #wf_countdown {
+      display: none;
+    }
+  }
+
   #wf_widget_by {
     font-family: "Helvetica", Arial,sans-serif;
     font-size: 11px;
@@ -20,7 +31,7 @@
     margin: 0 auto;
     text-align: center;
     position: relative;
-    top: 81px;
+    top: 82px;
     span {
       font-weight: bold;
     }

@@ -114,7 +114,6 @@ $mobile_tabs    = array('interstitial');
                     <li><a href="?do=sidekick" tabindex="-1">Side Kick</a></li>
                     <li><a href="?do=filmstrip" tabindex="-1">Film Strip</a></li>
                     <li><a href="?do=pushdown" tabindex="-1">Push Down</a></li>
-                    <li><a href="?do=interstitial_high" tabindex="-1">Interstitial</a></li>
                 </ul>
             </li>
 

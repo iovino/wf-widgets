@@ -9,6 +9,7 @@ $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'sprin
 $q3_tabs        = array('backtoschool', 'summertime');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown');
+$mobile_tabs    = array('interstitial');
 ?>
 
 <!DOCTYPE html>
@@ -113,6 +114,13 @@ $high_tabs      = array('sidekick', 'filmstrip', 'pushdown');
                     <li><a href="?do=sidekick" tabindex="-1">Side Kick</a></li>
                     <li><a href="?do=filmstrip" tabindex="-1">Film Strip</a></li>
                     <li><a href="?do=pushdown" tabindex="-1">Push Down</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown<?php echo (in_array($_REQUEST['do'], $mobile_tabs) ? ' active' : '') ?>">
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Mobile <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
+                    <li><a href="?do=interstitial" tabindex="-1">Interstitial</a></li>
                 </ul>
             </li>
 

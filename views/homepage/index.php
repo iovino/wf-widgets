@@ -8,7 +8,7 @@ $q1_tabs        = array();
 $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'springfashion');
 $q3_tabs        = array('backtoschool', 'summertime');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
-$high_tabs      = array('sidekick', 'filmstrip');
+$high_tabs      = array('sidekick', 'filmstrip', 'pushdown');
 ?>
 
 <!DOCTYPE html>
@@ -112,6 +112,7 @@ $high_tabs      = array('sidekick', 'filmstrip');
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=sidekick" tabindex="-1">Side Kick</a></li>
                     <li><a href="?do=filmstrip" tabindex="-1">Film Strip</a></li>
+                    <li><a href="?do=pushdown" tabindex="-1">Push Down</a></li>
                 </ul>
             </li>
 

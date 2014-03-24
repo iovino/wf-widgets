@@ -1,5 +1,6 @@
 <div class="col-lg-12 text-center">
-    <h3>Blogger Bar</h3>
-    <img src="/assets/imgs/homepage/nativeads/WF_BloggerAd_3.png" border="0" />
+    <h3>Blogger Bar Native Ad</h3>
+    <p>Clicks through to sponsored article page</p>
+    <img src="/assets/imgs/homepage/nativeads/blogger_bar_arrow.png" border="0" />
 </div>
 

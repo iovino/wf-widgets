@@ -39,17 +39,9 @@ $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', '
     <div class="row-fluid">
         <!-- navigation tabs -->
         <ul class="nav nav-tabs" id="myTab">
-            <li class="dropdown<?php echo (in_array($_REQUEST['do'], $content_tabs) ? ' active' : '') ?>">
-                <a href="#" id="content_tab" class="dropdown-toggle" data-toggle="dropdown">Womensforum Content <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="content_tab">
-                    <li><a href="?do=marchmania" tabindex="-1">March Mania</a></li>
-                    <li><a href="?do=easter" tabindex="-1">Easter</a></li>
-                    <li><a href="?do=springfashion" tabindex="-1">Spring Fashion</a></li>
-                </ul>
-            </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $program_tabs) ? ' active' : '') ?>">
-                <a href="#" id="video_tab" class="dropdown-toggle" data-toggle="dropdown">Original Programming <b class="caret"></b></a>
+                <a href="#" id="video_tab" class="dropdown-toggle" data-toggle="dropdown">Original Programming CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="video_tab">
                     <li><a href="?do=inspringwomen" tabindex="-1">Inspring Women</a></li>
                     <li><a href="?do=momtalk" tabindex="-1">Mom Talk</a></li>
@@ -62,7 +54,7 @@ $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', '
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $social_tabs) ? ' active' : '') ?>">
-                <a href="#" id="social_tab" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
+                <a href="#" id="social_tab" class="dropdown-toggle" data-toggle="dropdown">Social CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="social_tab">
                     <li><a href="?do=twitter" tabindex="-1">Twitter</a></li>
                     <li><a href="?do=facebook" tabindex="-1">Facebook</a></li>
@@ -82,7 +74,7 @@ $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', '
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $q2_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q2_tab" class="dropdown-toggle" data-toggle="dropdown">Q2 Opportunities <b class="caret"></b></a>
+                <a href="#" id="q2_tab" class="dropdown-toggle" data-toggle="dropdown">Q2 Opportunities CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q2_tab">
                     <li><a href="?do=easter" tabindex="-1">Easter</a></li>
                     <li><a href="?do=mothersday" tabindex="-1">Mothers Day</a></li>
@@ -93,7 +85,7 @@ $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', '
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $q3_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Q3 Opportunities <b class="caret"></b></a>
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Q3 Opportunities CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=backtoschool" tabindex="-1">Back To School</a></li>
                     <li><a href="?do=summertime" tabindex="-1">Summertime</a></li>
@@ -135,7 +127,7 @@ $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', '
                     <li><a href="?do=blogger-bar" tabindex="-1">Blogger Bar</a></li>
                     <li><a href="?do=slideshow" tabindex="-1">Slideshow</a></li>
                     <li><a href="?do=trending" tabindex="-1">Trending</a></li>
-                    <li><a href="?do=navbar" tabindex="-1">Nav Bar</a></li>
+                    <li><a href="?do=navbar" tabindex="-1">Navigation Bar</a></li>
                 </ul>
             </li>
 

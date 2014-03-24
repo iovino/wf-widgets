@@ -10,6 +10,8 @@ $q3_tabs        = array('backtoschool', 'summertime');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin');
 $mobile_tabs    = array('interstitial');
+$native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
+
 ?>
 
 <!DOCTYPE html>
@@ -123,6 +125,17 @@ $mobile_tabs    = array('interstitial');
                 <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Mobile <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=interstitial" tabindex="-1">Interstitial</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown<?php echo (in_array($_REQUEST['do'], $native_tabs) ? ' active' : '') ?>">
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Native Ads <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
+                    <li><a href="?do=flash-panel" tabindex="-1">Flash Panel</a></li>
+                    <li><a href="?do=blogger-bar" tabindex="-1">Blogger Bar</a></li>
+                    <li><a href="?do=slideshow" tabindex="-1">Slideshow</a></li>
+                    <li><a href="?do=trending" tabindex="-1">Trending</a></li>
+                    <li><a href="?do=navbar" tabindex="-1">Nav Bar</a></li>
                 </ul>
             </li>
 

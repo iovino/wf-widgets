@@ -8,7 +8,7 @@ $q1_tabs        = array();
 $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'springfashion');
 $q3_tabs        = array('backtoschool', 'summertime');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
-$high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high');
+$high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown');
 $mobile_tabs    = array('interstitial');
 ?>
 
@@ -114,6 +114,7 @@ $mobile_tabs    = array('interstitial');
                     <li><a href="?do=sidekick" tabindex="-1">Side Kick</a></li>
                     <li><a href="?do=filmstrip" tabindex="-1">Film Strip</a></li>
                     <li><a href="?do=pushdown" tabindex="-1">Push Down</a></li>
+                    <li><a href="?do=super-pushdown" tabindex="-1">Super Push Down</a></li>
                 </ul>
             </li>
 

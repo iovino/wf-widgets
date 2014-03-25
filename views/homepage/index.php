@@ -7,7 +7,7 @@ $social_tabs    = array('twitter', 'facebook', 'pinterest');
 $q1_tabs        = array();
 $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'springfashion');
 $q3_tabs        = array('backtoschool', 'summertime');
-$q4_tabs        = array('halloween', 'breast-care');
+$q4_tabs        = array('halloween', 'breast-care', 'newyears-countdown', 'holidays');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin');
 $mobile_tabs    = array('interstitial', 'mobile-standard');
@@ -96,11 +96,12 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $q4_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Q4 CDU's<b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
+                <a href="#" id="q4_tab" class="dropdown-toggle" data-toggle="dropdown">Q4 CDU's<b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="q4_tab">
                     <li><a href="?do=halloween" tabindex="-1">Halloween</a></li>
                     <li><a href="?do=breast-care" tabindex="-1">Breast Cancer Awareness</a></li>
                     <li><a href="?do=newyears-countdown" tabindex="-1">New Years Countdown</a></li>
+                    <li><a href="?do=holidays" tabindex="-1">Holidays</a></li>
                 </ul>
             </li>
 

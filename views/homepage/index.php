@@ -7,7 +7,7 @@ $social_tabs    = array('twitter', 'facebook', 'pinterest');
 $q1_tabs        = array();
 $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'springfashion');
 $q3_tabs        = array('backtoschool', 'summertime');
-$q4_tabs        = array();
+$q4_tabs        = array('halloween', 'breast-care');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin');
 $mobile_tabs    = array('interstitial', 'mobile-standard');
@@ -99,6 +99,7 @@ $savvy_tabs     = array('savvy-shoppers');
                 <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Q4 CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=halloween" tabindex="-1">Halloween</a></li>
+                    <li><a href="?do=breast-care" tabindex="-1">Breast Cancer Awareness</a></li>
                 </ul>
             </li>
 

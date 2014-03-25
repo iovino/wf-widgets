@@ -2,7 +2,7 @@
 
 $_REQUEST['do'] = empty($_REQUEST['do']) ? 'welcome' : $_REQUEST['do'];
 $content_tabs   = array('marchmania');
-$program_tabs   = array('inspringwomen', 'momtalk', 'askmom', 'trend', 'socialbuzz', 'fitfix', 'kitchencourses');
+$program_tabs   = array('inspringwomen', 'momtalk', 'askmom', 'trend', 'socialbuzz', 'fitfix', 'kitchencourses', 'diy-diaries');
 $social_tabs    = array('twitter', 'facebook', 'pinterest');
 $q1_tabs        = array();
 $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'springfashion');
@@ -50,6 +50,7 @@ $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', '
                     <li><a href="?do=socialbuzz" tabindex="-1">Social Buzz</a></li>
                     <li><a href="?do=fitfix" tabindex="-1">Fit Fix</a></li>
                     <li><a href="?do=kitchencourses" tabindex="-1">Kitchen Courses</a></li>
+                    <li><a href="?do=diy-diaries" tabindex="-1">DIY Diaries</a></li>
                 </ul>
             </li>
 

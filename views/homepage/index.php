@@ -1,6 +1,6 @@
 <?php
 
-$_REQUEST['do'] = empty($_REQUEST['do']) ? 'marchmania' : $_REQUEST['do'];
+$_REQUEST['do'] = empty($_REQUEST['do']) ? 'welcome' : $_REQUEST['do'];
 $content_tabs   = array('marchmania');
 $program_tabs   = array('inspringwomen', 'momtalk', 'askmom', 'trend', 'socialbuzz', 'fitfix', 'kitchencourses');
 $social_tabs    = array('twitter', 'facebook', 'pinterest');

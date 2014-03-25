@@ -8,7 +8,7 @@ $q1_tabs        = array();
 $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'springfashion');
 $q3_tabs        = array('backtoschool', 'summertime', 'fall-back-fitness', 'fall-tv', 'winter-fashion');
 $q4_tabs        = array('halloween', 'breast-care', 'newyears-countdown', 'holidays');
-$custom_tabs    = array('hershey', 'coppertone', 'allaway');
+$custom_tabs    = array('hershey', 'coppertone', 'alaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin', 'billboard');
 $mobile_tabs    = array('interstitial', 'mobile-standard');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
@@ -113,7 +113,7 @@ $savvy_tabs     = array('savvy-shoppers');
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=hershey" tabindex="-1">Hershey</a></li>
                     <li><a href="?do=coppertone" tabindex="-1">Coppertone</a></li>
-                    <li><a href="?do=allaway" tabindex="-1">Allaway Pollen</a></li>
+                    <li><a href="?do=alaway" tabindex="-1">Alaway Pollen</a></li>
                 </ul>
             </li>
 

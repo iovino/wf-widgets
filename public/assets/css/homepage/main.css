@@ -41,3 +41,76 @@ body {
 .container {
     max-width: 1270px;
 }
+
+/************************************************/
+/* ****************** Nav Tabs ******************/
+/************************************************/
+.nav-tabs {
+    border-bottom: 5px solid #e98893;
+}
+
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > li > a:hover {
+    color: #ffffff;
+    background-color: #e98893;
+    border-color: #e98893 #e98893 #e98893;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    cursor: default;
+    background-color: #e98893;
+    border: 1px solid #e98893;
+    border-bottom-color: transparent;
+}
+
+
+.nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+
+.nav-tabs.nav-justified > li {
+    float: none;
+}
+
+.nav-tabs.nav-justified > li > a {
+    text-align: center;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    color: #ffffff;
+    background-color: #e98893;
+    border-color: #e98893;
+}
+
+.nav .caret {
+    border-top-color: #428bca;
+    border-bottom-color: #428bca;
+}
+
+.nav a:hover .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.nav .active .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+

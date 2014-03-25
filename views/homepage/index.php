@@ -35,7 +35,7 @@ $savvy_tabs     = array('savvy-shoppers');
         <h3 class="text-muted pull-right">Womensforum Products</h3>
     </div>
 
-    <hr>
+    <br>
 
     <div class="row-fluid">
         <!-- navigation tabs -->

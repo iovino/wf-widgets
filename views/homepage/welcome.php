@@ -1,4 +1,3 @@
 <div class="col-lg-12 text-center">
-    <h2>Womensforum Ad Product Demo</h2>
-    <p>Please select one of the menu items above.</p>
+<img src="/assets/imgs/homepage/WF_ProductsLP_1.png" border="0" />
 </div>

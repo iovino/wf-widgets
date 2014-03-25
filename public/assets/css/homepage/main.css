@@ -37,3 +37,7 @@ body {
 .nav-tabs>li>a {
     font-size: 12px;
 }
+
+.container {
+    max-width: 1270px;
+}

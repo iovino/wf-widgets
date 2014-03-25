@@ -11,6 +11,7 @@ $custom_tabs    = array('hershey', 'coppertone', 'allaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin');
 $mobile_tabs    = array('interstitial');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
+$savvy_tabs     = array('savvy-shoppers');
 
 ?>
 
@@ -131,6 +132,15 @@ $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', '
                     <li><a href="?do=navbar" tabindex="-1">Navigation Bar</a></li>
                 </ul>
             </li>
+
+            <li class="dropdown<?php echo (in_array($_REQUEST['do'], $savvy_tabs) ? ' active' : '') ?>">
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Savvy Shoppers <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
+                    <li><a href="?do=savvy-shoppers" tabindex="-1">Savvy Shoppers</a></li>
+                </ul>
+            </li>
+
+
 
         </ul>
 

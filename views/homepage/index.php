@@ -100,6 +100,7 @@ $savvy_tabs     = array('savvy-shoppers');
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=halloween" tabindex="-1">Halloween</a></li>
                     <li><a href="?do=breast-care" tabindex="-1">Breast Cancer Awareness</a></li>
+                    <li><a href="?do=newyears-countdown" tabindex="-1">New Years Countdown</a></li>
                 </ul>
             </li>
 

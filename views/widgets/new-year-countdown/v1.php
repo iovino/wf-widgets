@@ -10,7 +10,7 @@
 
 		</div>
 		<div id="wf_widget_content">
-
+            <?php echo $this->helper->fetchChannel('new-year-new-you.html'); ?>
 		</div>
 		<div id="wf_widget_footer">
             <script src='http://cdn.onescreen.net/os/static/apps/2.0/_onescreen.js'></script>

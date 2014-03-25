@@ -10,7 +10,7 @@
 			<div id="wf_widget_by">Brought to you by <span>Womensforum.com </span></div>
 		</div>
 		<div id="wf_widget_content">
-
+            <?php echo $this->helper->fetchChannel('halloween.html'); ?>
 		</div>
 		<div id="wf_widget_footer">
             <script type="text/javascript">

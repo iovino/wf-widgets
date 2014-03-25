@@ -9,7 +9,7 @@ $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'sprin
 $q3_tabs        = array('backtoschool', 'summertime');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin');
-$mobile_tabs    = array('interstitial');
+$mobile_tabs    = array('interstitial', 'mobile-standard');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
 $savvy_tabs     = array('savvy-shoppers');
 
@@ -118,6 +118,7 @@ $savvy_tabs     = array('savvy-shoppers');
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $mobile_tabs) ? ' active' : '') ?>">
                 <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Mobile <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
+                    <li><a href="?do=mobile-standard" tabindex="-1">Standard</a></li>
                     <li><a href="?do=interstitial" tabindex="-1">Interstitial</a></li>
                 </ul>
             </li>

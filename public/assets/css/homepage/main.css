@@ -114,3 +114,16 @@ body {
     border-bottom-color: #ffffff;
 }
 
+.super-pushdowns {
+
+}
+
+.super-pushdowns-nav {
+    margin: 0 auto; width: 150px; margin-top: 20px;
+}
+
+.super-pushdowns h2 {
+    color: #d21748; margin: 35px;
+}
+
+

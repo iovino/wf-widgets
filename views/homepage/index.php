@@ -9,7 +9,7 @@ $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'sprin
 $q3_tabs        = array('backtoschool', 'summertime', 'fall-back-fitness', 'fall-tv', 'winter-fashion');
 $q4_tabs        = array('halloween', 'breast-care', 'newyears-countdown', 'holidays');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
-$high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin');
+$high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin', 'billboard');
 $mobile_tabs    = array('interstitial', 'mobile-standard');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
 $savvy_tabs     = array('savvy-shoppers');
@@ -126,6 +126,8 @@ $savvy_tabs     = array('savvy-shoppers');
                     <li><a href="?do=pushdown" tabindex="-1">Push Down</a></li>
                     <li><a href="?do=super-pushdown" tabindex="-1">Super Push Down</a></li>
                     <li><a href="?do=reskin" tabindex="-1">Reskin</a></li>
+                    <li><a href="?do=billboard" tabindex="-1">Billboard</a></li>
+
                 </ul>
             </li>
 

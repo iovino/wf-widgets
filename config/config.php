@@ -30,7 +30,8 @@ $app->config('channels', array(
     'mothers-day',
     'fathers-day',
     'world-cup',
-    'savvy-shopper'
+    'savvy-shopper',
+    'diy-diaries'
 ));
 
 // production configuration

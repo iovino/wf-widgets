@@ -6,7 +6,7 @@ $program_tabs   = array('inspringwomen', 'momtalk', 'askmom', 'trend', 'socialbu
 $social_tabs    = array('twitter', 'facebook', 'pinterest');
 $q1_tabs        = array();
 $q2_tabs        = array('easter', 'mothersday', 'fathersday', 'worldcup', 'springfashion');
-$q3_tabs        = array('backtoschool', 'summertime');
+$q3_tabs        = array('backtoschool', 'summertime', 'fall-back-fitness');
 $q4_tabs        = array('halloween', 'breast-care', 'newyears-countdown', 'holidays');
 $custom_tabs    = array('hershey', 'coppertone', 'allaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin');
@@ -92,6 +92,7 @@ $savvy_tabs     = array('savvy-shoppers');
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=backtoschool" tabindex="-1">Back To School</a></li>
                     <li><a href="?do=summertime" tabindex="-1">Summertime</a></li>
+                    <li><a href="?do=fall-back-fitness" tabindex="-1">Fall Back Into Fitness</a></li>
                 </ul>
             </li>
 

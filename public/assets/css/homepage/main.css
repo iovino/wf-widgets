@@ -126,4 +126,6 @@ body {
     color: #d21748; margin: 35px;
 }
 
-
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}

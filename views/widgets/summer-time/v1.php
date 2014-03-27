@@ -10,7 +10,6 @@
 			<div id="wf_widget_by">Brought to you by <span>Coppertone</span></div>
 		</div>
 		<div id="wf_widget_content">
-
             <ul>
                 <li class="alt1">
                     <img src="/assets/imgs/summer-time/surviving-the-summer-heat.jpg" width="60" height="60" class="pull-left" />
@@ -25,11 +24,9 @@
                     <a  href="http://www.womensforum.com/must-haves-for-healthy-summer-hair-and-skin-video.html" target="_blank">Must-Haves for Healthy Summer Hair and Skin</a>
                 </li>
             </ul>
-
-
 		</div>
 		<div id="wf_widget_footer">
-			<a href="http://www.coppertone.com/">
+			<a target="_blank" href="http://www.coppertone.com/">
                 <img src="/assets/imgs/summer-time/coppertone-ad.jpg" border="0" />
 			</a>
 		</div>

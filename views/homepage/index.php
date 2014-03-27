@@ -148,6 +148,7 @@ $savvy_tabs     = array('savvy-shoppers');
                     <li><a href="?do=slideshow" tabindex="-1">Slideshow</a></li>
                     <li><a href="?do=trending" tabindex="-1">Trending</a></li>
                     <li><a href="?do=navbar" tabindex="-1">Navigation Bar</a></li>
+                    <li><a href="?do=badges" tabindex="-1">Promo Badges</a></li>
                 </ul>
             </li>
 

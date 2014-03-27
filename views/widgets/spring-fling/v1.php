@@ -7,7 +7,9 @@
 <body>
 	<div id="wf_widget_countdown">
 		<div id="wf_widget_header">
-			<div id="wf_widget_by"></div>
+            <a class="wf_header_link" target="_blank" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=9341170&PluID=0&ord=[timestamp]">
+			    <div id="wf_widget_by"></div>
+            </a>
 		</div>
 		<div id="wf_widget_content">
             <a target="_blank" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=9341170&PluID=0&ord=[timestamp]"><img src="/assets/imgs/spring-fling/pollen-maps/today.gif" border="0" width="300" height="250" /></a>

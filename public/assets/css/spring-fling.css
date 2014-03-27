@@ -8,6 +8,10 @@
     margin-bottom: 1px; }
     #wf_widget_countdown #wf_widget_header #wf_countdown {
       display: none; }
+    #wf_widget_countdown #wf_widget_header .wf_header_link {
+      display: block;
+      width: px;
+      height: 100px; }
   #wf_widget_countdown #wf_widget_by {
     font-family: "Helvetica", Arial,sans-serif;
     font-size: 11px;

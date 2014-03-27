@@ -13,7 +13,11 @@
             <?php echo $this->helper->fetchChannel('easter-passover.html'); ?>
 		</div>
 		<div id="wf_holiday_footer">
-
+            <script src='http://cdn.onescreen.net/os/static/apps/2.0/_onescreen.js'></script>
+            <div id='os_dmp_embed'></div>
+            <script>com.onescreen.widgets.load('18120-7d7cc5c6a4fd35872a5ce94fb1142a1d', 'os_dmp_embed');
+            </script>
+            <noscript>This application requires JavaScript.</noscript>
 		</div>
 	</div>
 </body>

@@ -7,7 +7,7 @@
 <body>
 <div id="wf_holiday_countdown">
     <div id="wf_widget_header">
-        <div id="wf_widget_by">Brought to you by <span>Womensforum.com</span></div>
+        <div id="wf_widget_by">Brought to you by <span>Hershey's</span></div>
     </div>
     <div id="wf_holiday_content">
         <?php echo $this->helper->fetchChannel('easter-passover.html'); ?>

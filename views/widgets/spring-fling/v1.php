@@ -10,10 +10,10 @@
 			<div id="wf_widget_by"></div>
 		</div>
 		<div id="wf_widget_content">
-            <a href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=9341170&PluID=0&ord=[timestamp]"><img src="/assets/imgs/spring-fling/pollen-maps/today.gif" border="0" width="300" height="250" /></a>
+            <a target="_blank" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=9341170&PluID=0&ord=[timestamp]"><img src="/assets/imgs/spring-fling/pollen-maps/today.gif" border="0" width="300" height="250" /></a>
 		</div>
 		<div id="wf_widget_footer">
-            <a href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=9341170&PluID=0&ord=[timestamp]"><img src="/assets/imgs/spring-fling/alaway-ad.png" border="0" /></a>
+            <a target="_blank" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=9341170&PluID=0&ord=[timestamp]"><img src="/assets/imgs/spring-fling/alaway-ad.png" border="0" /></a>
 		</div>
 	</div>
 

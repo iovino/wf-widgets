@@ -21,7 +21,7 @@
                 );
             ?>
 
-            <a href="http://ad.doubleclick.net/ddm/trackclk/N7384.110164WOMENSFORUM.COM/B8048566.107483565;dc_trk_aid=280742640;dc_trk_cid=57590216">
+            <a target="_blank" href="http://ad.doubleclick.net/ddm/trackclk/N7384.110164WOMENSFORUM.COM/B8048566.107483565;dc_trk_aid=280742640;dc_trk_cid=57590216">
                 <img src="<?php echo $ads[rand(0,2)]; ?>" border="0" />
             </a>
 		</div>

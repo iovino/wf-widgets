@@ -27,6 +27,7 @@ $savvy_tabs     = array('savvy-shoppers');
 
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/main.js"></script>
 </head>
 
 <body>

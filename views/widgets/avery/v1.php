@@ -13,7 +13,15 @@
             <?php echo $this->helper->fetchChannel('parties-and-celebrations.html'); ?>
 		</div>
 		<div id="wf_widget_footer">
-			
+			<?php
+                $ads = array(
+                    '/assets/imgs/avery/bnr_300x250_avery_birthdays_cupcakes.jpg',
+                    '/assets/imgs/avery/bnr_300x250_avery_birthdays_kebabs.jpg',
+                    '/assets/imgs/avery/bnr_300x250_avery_birthdays_pink-party.jpg'
+                );
+            ?>
+
+            <img src="<?php echo $ads[rand(0,2)]; ?>" border="0" />
 		</div>
 	</div>
 </body>

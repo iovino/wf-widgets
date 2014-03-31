@@ -13,7 +13,7 @@
             <?php echo $this->helper->fetchChannel('parties-and-celebrations.html'); ?>
         </div>
 		<div id="wf_widget_footer">
-			
+
 		</div>
 	</div>
 </body>

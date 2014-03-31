@@ -15,19 +15,28 @@
 		<div id="wf_widget_footer">
 			<?php
                 $ads = array(
-                    '/assets/imgs/avery/bnr_300x250_avery_birthdays_cupcakes.jpg',
-                    '/assets/imgs/avery/bnr_300x250_avery_birthdays_kebabs.jpg',
-                    '/assets/imgs/avery/bnr_300x250_avery_birthdays_pink-party.jpg'
+                    '0' => array(
+                        'img' => '<a target="_blank" href="http://ad.doubleclick.net/ddm/trackclk/N7384.110164WOMENSFORUM.COM/B8048566.107755008;dc_trk_aid=280742640;dc_trk_cid=57590216"><img src="/assets/imgs/avery/bnr_300x250_avery_birthdays_cupcakes.jpg" border="0"></a>',
+                        'trk' => '<img src="http://ad.doubleclick.net/ddm/trackimp/n7384.110164womensforum.com/b8048566.107755008;dc_trk_aid=280742640;dc_trk_cid=57590216;ord=[timestamp]?" border="0" height="1" width="1" alt="advertisement">'
+                    ),
+                    '1' => array(
+                        'img' => '<a target="_blank" href="http://ad.doubleclick.net/ddm/trackclk/N7384.110164WOMENSFORUM.COM/B8048566.107755009;dc_trk_aid=280742640;dc_trk_cid=57590216"><img src="/assets/imgs/avery/bnr_300x250_avery_birthdays_kebabs.jpg" border="0"></a>',
+                        'trk' => '<img src="http://ad.doubleclick.net/ddm/trackimp/n7384.110164womensforum.com/b8048566.107755009;dc_trk_aid=280742640;dc_trk_cid=57590216;ord=[timestamp]?" border="0" height="1" width="1" alt="advertisement">'
+                    ),
+                    '2' => array(
+                        'img' => '<a target="_blank" href="http://ad.doubleclick.net/ddm/trackclk/N7384.110164WOMENSFORUM.COM/B8048566.107755285;dc_trk_aid=280742640;dc_trk_cid=57590216"><img src="/assets/imgs/avery/bnr_300x250_avery_birthdays_pink-party.jpg" border="0"></a>',
+                        'trk' => '<img src="http://ad.doubleclick.net/ddm/trackimp/n7384.110164womensforum.com/b8048566.107755285;dc_trk_aid=280742640;dc_trk_cid=57590216;ord=[timestamp]?" border="0" height="1" width="1" alt="advertisement">'
+                    )
                 );
             ?>
 
-            <a target="_blank" href="http://ad.doubleclick.net/ddm/trackclk/N7384.110164WOMENSFORUM.COM/B8048566.107483565;dc_trk_aid=280742640;dc_trk_cid=57590216">
-                <img src="<?php echo $ads[rand(0,2)]; ?>" border="0" />
-            </a>
+            <?php $key = rand(0,2); ?>
+            <?php echo $ads[$key]['img']; ?>
+            <?php echo $ads[$key]['trk']; ?>
 		</div>
 	</div>
 
-    <img src="http://ad.doubleclick.net/ddm/trackimp/N7384.110164WOMENSFORUM.COM/B8048566.107483565;dc_trk_aid=280742640;dc_trk_cid=57590216;ord=[timestamp]?" border="0" />
+    <img src="" border="0" />
 </body>
 </html>
 

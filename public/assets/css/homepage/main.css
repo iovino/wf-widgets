@@ -129,3 +129,10 @@ body {
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #e98893;
+}

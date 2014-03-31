@@ -35,7 +35,8 @@ $app->config('channels', array(
     'new-year-new-you',
     'halloween',
     'breast-cancer-awareness',
-    'holidays'
+    'holidays',
+    'parties-and-celebrations'
 ));
 
 // production configuration

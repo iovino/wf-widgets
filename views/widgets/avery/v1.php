@@ -21,9 +21,13 @@
                 );
             ?>
 
-            <img src="<?php echo $ads[rand(0,2)]; ?>" border="0" />
+            <a href="http://ad.doubleclick.net/ddm/trackclk/N7384.110164WOMENSFORUM.COM/B8048566.107483565;dc_trk_aid=280742640;dc_trk_cid=57590216">
+                <img src="<?php echo $ads[rand(0,2)]; ?>" border="0" />
+            </a>
 		</div>
 	</div>
+
+    <img src="http://ad.doubleclick.net/ddm/trackimp/N7384.110164WOMENSFORUM.COM/B8048566.107483565;dc_trk_aid=280742640;dc_trk_cid=57590216;ord=[timestamp]?" border="0" />
 </body>
 </html>
 

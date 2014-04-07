@@ -10,7 +10,7 @@ $q3_tabs        = array('backtoschool', 'summertime', 'fall-back-fitness', 'fall
 $q4_tabs        = array('halloween', 'breast-care', 'newyears-countdown', 'holidays');
 $custom_tabs    = array('hershey', 'coppertone', 'alaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin', 'billboard', 'portrait', 'game');
-$mobile_tabs    = array('interstitial', 'mobile-standard');
+$mobile_tabs    = array('interstitial', 'mobile-standard', 'on-the-go');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
 $savvy_tabs     = array('savvy-shoppers');
 
@@ -138,6 +138,7 @@ $savvy_tabs     = array('savvy-shoppers');
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=mobile-standard" tabindex="-1">Standard</a></li>
                     <li><a href="?do=interstitial" tabindex="-1">Interstitial</a></li>
+                    <li><a href="?do=on-the-go" tabindex="-1">Today On The Go</a></li>
                 </ul>
             </li>
 

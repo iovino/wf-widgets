@@ -138,7 +138,7 @@ $savvy_tabs     = array('savvy-shoppers');
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=mobile-standard" tabindex="-1">Standard</a></li>
                     <li><a href="?do=interstitial" tabindex="-1">Interstitial</a></li>
-                    <li><a href="?do=on-the-go" tabindex="-1">Today On The Go</a></li>
+                    <li><a href="?do=on-the-go" tabindex="-1">Mobile Only Content</a></li>
                 </ul>
             </li>
 

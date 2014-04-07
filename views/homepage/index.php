@@ -165,7 +165,7 @@ $audience_tabs  = array('audience-platform');
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $audience_tabs) ? ' active' : '') ?>">
                 <a href="#" id="audience_tab" class="dropdown-toggle" data-toggle="dropdown">Audience<br> Platform <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="audience_tab">
-                    <li><a href="?do=audience-platform" tabindex="-1">Audience Platform Overview</a></li>
+                    <li><a href="?do=audience-platform" tabindex="-1">Overview</a></li>
                 </ul>
             </li>
 

@@ -136,3 +136,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     text-decoration: none;
     background-color: #e98893;
 }
+
+.dropdown-menu-title {
+    background: #ebebeb;
+    padding: 5px;
+    padding-left: 18px;
+
+}

@@ -13,6 +13,7 @@ $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high'
 $mobile_tabs    = array('interstitial', 'mobile-standard', 'on-the-go');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
 $savvy_tabs     = array('savvy-shoppers');
+$audience_tabs  = array('audience-platform');
 
 ?>
 
@@ -44,7 +45,7 @@ $savvy_tabs     = array('savvy-shoppers');
         <ul class="nav nav-tabs" id="myTab">
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $program_tabs) ? ' active' : '') ?>">
-                <a href="#" id="video_tab" class="dropdown-toggle" data-toggle="dropdown">Original Programming CDU's<b class="caret"></b></a>
+                <a href="#" id="video_tab" class="dropdown-toggle" data-toggle="dropdown">Original<br> Programming CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="video_tab">
                     <li><a href="?do=inspringwomen" tabindex="-1">Inspring Women</a></li>
                     <li><a href="?do=momtalk" tabindex="-1">Mom Talk</a></li>
@@ -58,7 +59,7 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $social_tabs) ? ' active' : '') ?>">
-                <a href="#" id="social_tab" class="dropdown-toggle" data-toggle="dropdown">Social CDU's<b class="caret"></b></a>
+                <a href="#" id="social_tab" class="dropdown-toggle" data-toggle="dropdown">Social<br> CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="social_tab">
                     <li><a href="?do=twitter" tabindex="-1">Twitter</a></li>
                     <li><a href="?do=facebook" tabindex="-1">Facebook</a></li>
@@ -78,7 +79,7 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $q2_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q2_tab" class="dropdown-toggle" data-toggle="dropdown">Q2 CDU's<b class="caret"></b></a>
+                <a href="#" id="q2_tab" class="dropdown-toggle" data-toggle="dropdown">Q2<br> CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q2_tab">
                     <li><a href="?do=easter" tabindex="-1">Easter</a></li>
                     <li><a href="?do=mothersday" tabindex="-1">Mothers Day</a></li>
@@ -89,7 +90,7 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $q3_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Q3 CDU's<b class="caret"></b></a>
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Q3<br> CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=backtoschool" tabindex="-1">Back To School</a></li>
                     <li><a href="?do=summertime" tabindex="-1">Summertime</a></li>
@@ -100,7 +101,7 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $q4_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q4_tab" class="dropdown-toggle" data-toggle="dropdown">Q4 CDU's<b class="caret"></b></a>
+                <a href="#" id="q4_tab" class="dropdown-toggle" data-toggle="dropdown">Q4<br> CDU's<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q4_tab">
                     <li><a href="?do=halloween" tabindex="-1">Halloween</a></li>
                     <li><a href="?do=breast-care" tabindex="-1">Breast Cancer Awareness</a></li>
@@ -110,7 +111,7 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $custom_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Custom CDU's <b class="caret"></b></a>
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Custom<br> CDU's <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=hershey" tabindex="-1">Hershey</a></li>
                     <li><a href="?do=coppertone" tabindex="-1">Coppertone</a></li>
@@ -120,7 +121,7 @@ $savvy_tabs     = array('savvy-shoppers');
 
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $high_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">High Impact <b class="caret"></b></a>
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">High<br> Impact <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=sidekick" tabindex="-1">Sidekick</a></li>
                     <li><a href="?do=filmstrip" tabindex="-1">Filmstrip</a></li>
@@ -134,7 +135,7 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $mobile_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Mobile <b class="caret"></b></a>
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Mobile<br> Ads <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=mobile-standard" tabindex="-1">Standard</a></li>
                     <li><a href="?do=interstitial" tabindex="-1">Interstitial</a></li>
@@ -143,7 +144,7 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $native_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Native Ads <b class="caret"></b></a>
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Native<br> Ads <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=flash-panel" tabindex="-1">Flash Panel</a></li>
                     <li><a href="?do=blogger-bar" tabindex="-1">Blogger Bar</a></li>
@@ -155,12 +156,18 @@ $savvy_tabs     = array('savvy-shoppers');
             </li>
 
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $savvy_tabs) ? ' active' : '') ?>">
-                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Savvy Shoppers <b class="caret"></b></a>
+                <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Savvy<br> Shoppers <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=savvy-shoppers" tabindex="-1">Savvy Shoppers</a></li>
                 </ul>
             </li>
 
+            <li class="dropdown<?php echo (in_array($_REQUEST['do'], $audience_tabs) ? ' active' : '') ?>">
+                <a href="#" id="audience_tab" class="dropdown-toggle" data-toggle="dropdown">Audience<br> Platform <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="audience_tab">
+                    <li><a href="?do=audience-platform" tabindex="-1">Audience Platform Overview</a></li>
+                </ul>
+            </li>
 
         </ul>
 

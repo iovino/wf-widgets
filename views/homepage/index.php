@@ -174,7 +174,7 @@ $audience_tabs  = array('audience-platform');
         <div class="tab-content">
             <div class="tab-pane active" id="womensforum">
                 <div class="row-fluid">
-                    <?php if (file_exists($file = '../views/homepage/' . htmlspecialchars($_REQUEST['do'] . '.php'))) : ?>
+                    <?php if (file_exists($file = '../views/homepage/partials/' . htmlspecialchars($_REQUEST['do'] . '.php'))) : ?>
                         <?php include $file ?>
                     <?php endif ?>
                 </div>

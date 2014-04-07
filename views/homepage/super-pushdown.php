@@ -1,12 +1,16 @@
 <?php $_REQUEST['type'] = empty($_REQUEST['type']) ? 'style' : $_REQUEST['type']; ?>
 
+<div class="col-lg-12 text-center">
+    <h2>Super Pushdown</h2>
+    <p>A pushdown unit with broad functionality via visual toolbar</p>
+</div>
+
 <div class="row-fluid super-pushdowns-nav">
     <ul class="nav nav-pills">
         <li<?php echo ($_REQUEST['type'] == 'style' ? ' class="active"' : ''); ?>><a href="?do=super-pushdown&amp;type=style">Style</a></li>
         <li<?php echo ($_REQUEST['type'] == 'food' ? ' class="active"' : ''); ?>><a href="?do=super-pushdown&amp;type=food">Food</a></li>
     </ul>
 </div>
-
 
 <?php if ($_REQUEST['type'] == 'style') : ?>
 <div class="row-fluid super-pushdowns">

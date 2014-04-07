@@ -122,10 +122,10 @@ $savvy_tabs     = array('savvy-shoppers');
             <li class="dropdown<?php echo (in_array($_REQUEST['do'], $high_tabs) ? ' active' : '') ?>">
                 <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">High Impact <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
-                    <li><a href="?do=sidekick" tabindex="-1">Side Kick</a></li>
-                    <li><a href="?do=filmstrip" tabindex="-1">Film Strip</a></li>
-                    <li><a href="?do=pushdown" tabindex="-1">Push Down</a></li>
-                    <li><a href="?do=super-pushdown" tabindex="-1">Super Push Down</a></li>
+                    <li><a href="?do=sidekick" tabindex="-1">Sidekick</a></li>
+                    <li><a href="?do=filmstrip" tabindex="-1">Filmstrip</a></li>
+                    <li><a href="?do=pushdown" tabindex="-1">Pushdown</a></li>
+                    <li><a href="?do=super-pushdown" tabindex="-1">Super Pushdown</a></li>
                     <li><a href="?do=reskin" tabindex="-1">Reskin</a></li>
                     <li><a href="?do=billboard" tabindex="-1">Billboard</a></li>
                     <li><a href="?do=portrait" tabindex="-1">Portrait</a></li>

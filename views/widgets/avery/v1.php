@@ -33,6 +33,9 @@
             <?php $key = rand(0,2); ?>
             <?php echo $ads[$key]['img']; ?>
             <?php echo $ads[$key]['trk']; ?>
+
+            <img src="http://ad.doubleclick.net/ddm/trackimp/N7384.110164WOMENSFORUM.COM/B8048566.107483565;dc_trk_aid=280742640;dc_trk_cid=57590216;ord=[timestamp]?"  border="0" alt=""/>
+
 		</div>
 	</div>
 

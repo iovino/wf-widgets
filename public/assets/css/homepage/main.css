@@ -35,7 +35,8 @@ body {
 }
 
 .nav-tabs>li>a {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 10px 23px;
 }
 
 .container {

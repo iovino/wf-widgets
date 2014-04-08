@@ -1,0 +1,63 @@
+# Womensforum.com Products & CDU Widgets
+
+This repo houses all the code for the [products.womensforum.com][] site as well as the CDU widgets. The framework used for this is Slim Framework, you can read more about it including their documentation on their site.
+
+<a name="local_install"></a>
+## Local Installation
+
+We first need to clone the repo. Open the terminal and run the following command:
+
+	$ git clone git@github.com:iovino/wf-widgets.git
+
+Next we need to create a few directories that are being ignored by git. These directories are ignored because they contain dynamic images and html templates that change often by cronjobs. Make sure to run this command at the root level of the app.
+
+	$ mkdir ./public/assets/imgs/thumbnails && mkdir ./views/channels && mkdir ./public/assets/imgs/spring-fling/pollen-maps
+
+Let's make these directories writable by the server
+
+	$ chmod 0777 ./public/assets/imgs/thumbnails && chmod 0777 ./views/channels && chmod 0777 ./public/assets/imgs/spring-fling/pollen-maps
+
+Create a developer specific config mode in /config/config.php and commit that to the repository. Change 'iovino' to your last name.
+
+ // Ken Iovino
+ $app->configureMode('iovino', function () use ($app) {
+     $app->config('base_url', 'http://widgets');
+     $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
+     $app->config('debug', true);
+ });
+
+Open app.php and change the environment mode to your local mode, in this case, change 'production' to 'iovino' or whatever you used. Typically your last name.
+
+Now we'll create a virtual host for the app so we can access it using a local URL.
+
+Open /private/etc/apache2/extra/httpd-vhosts.conf and add the following. Be sure to change the public paths so they are pointing to the correct directory and that the ServerName and ServerAlias matches what you have for your 'base_url' above.
+
+	<VirtualHost *:80>
+	   ServerName widgets
+	   ServerAlias widgets
+	   DocumentRoot /Users/Ken/Sites/wf-widgets/public/
+	   <Directory /Users/Ken/Sites/wf-widgets/public>
+	     Options -Indexes FollowSymLinks
+	     AllowOverride AuthConfig FileInfo
+	     Order allow,deny
+	     Allow from all
+	     Options -MultiViews
+	   </Directory>
+	</VirtualHost>
+
+Next we need to tell your computer about the new VirtualHost we just created. Open /etc/hosts and add the following line:
+
+	127.0.0.1 widgets
+
+Make sure that 'widgets' matches what you used for ServerName, ServerAlias and the base_url in the config file.
+
+You will need to restart Apache in order for these new changes to take affect
+
+	$ sudo apachectl restart
+
+You should now be able to visit the products homepage by visiting the base_url, in this case: http://widgets
+
+You'll probably notice that some widgets are missing their content and thumbnails. In order to fix that, we'll need to run a couple of cron jobs. You can run the crons manually by visiting the crons URLs here:
+
+	http://widgets/crons/channel_cache
+	http://widgets/crons/pollen-data

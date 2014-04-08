@@ -19,12 +19,12 @@ Let's make these directories writable by the server
 
 Create a developer specific config mode in /config/config.php and commit that to the repository. Change 'iovino' to your last name.
 
- // Ken Iovino
- $app->configureMode('iovino', function () use ($app) {
-     $app->config('base_url', 'http://widgets');
-     $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
-     $app->config('debug', true);
- });
+	// Ken Iovino
+	$app->configureMode('iovino', function () use ($app) {
+	   $app->config('base_url', 'http://widgets');
+	   $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
+	   $app->config('debug', true);
+	});
 
 Open app.php and change the environment mode to your local mode, in this case, change 'production' to 'iovino' or whatever you used. Typically your last name.
 

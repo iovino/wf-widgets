@@ -12,7 +12,7 @@ $custom_tabs    = array('hershey', 'coppertone', 'alaway');
 $high_tabs      = array('sidekick', 'filmstrip', 'pushdown', 'interstitial_high', 'super-pushdown', 'reskin', 'billboard', 'portrait', 'game');
 $mobile_tabs    = array('interstitial', 'mobile-standard', 'on-the-go');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
-$savvy_tabs     = array('savvy-shoppers');
+$savvy_tabs     = array('savvy-shoppers', 'shopping-guides');
 $audience_tabs  = array('audience-platform');
 
 ?>
@@ -159,6 +159,7 @@ $audience_tabs  = array('audience-platform');
                 <a href="#" id="q3_tab" class="dropdown-toggle" data-toggle="dropdown">Savvy<br> Shoppers <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="q3_tab">
                     <li><a href="?do=savvy-shoppers" tabindex="-1">Savvy Shoppers</a></li>
+                    <li><a href="?do=shopping-guides" tabindex="-1">Shopping Guides</a></li>
                 </ul>
             </li>
 

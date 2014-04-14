@@ -14,6 +14,7 @@ $mobile_tabs    = array('interstitial', 'mobile-standard', 'on-the-go');
 $native_tabs    = array('flash-panel', 'blogger-bar', 'slideshow', 'trending', 'navbar');
 $savvy_tabs     = array('savvy-shoppers', 'shopping-guides');
 $audience_tabs  = array('audience-platform');
+$content_tab    = array('content-overview', 'expert-bloggers', 'womensforum-tv', 'social-media-promos');
 
 ?>
 
@@ -26,9 +27,14 @@ $audience_tabs  = array('audience-platform');
     <link href="/assets/css/homepage/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/homepage/main.css" rel="stylesheet">
 
+    <?php if (in_array($_REQUEST['do'], $content_tab)) : ?>
+        <link href="/assets/css/homepage/wf-content.css" rel="stylesheet">
+    <? endif ?>
+
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/main.js"></script>
+
 </head>
 
 <body>
@@ -167,6 +173,16 @@ $audience_tabs  = array('audience-platform');
                 <a href="#" id="audience_tab" class="dropdown-toggle" data-toggle="dropdown">Audience<br> Platform <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="audience_tab">
                     <li><a href="?do=audience-platform" tabindex="-1">Overview</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown<?php echo (in_array($_REQUEST['do'], $content_tab) ? ' active' : '') ?>">
+                <a href="#" id="content_tab" class="dropdown-toggle" data-toggle="dropdown">Womensforum<br> Content <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="content_tab">
+                    <li><a href="?do=content-overview" tabindex="-1">Content Overview</a></li>
+                    <li><a href="?do=expert-bloggers" tabindex="-1">Expert Bloggers</a></li>
+                    <li><a href="?do=womensforum-tv" tabindex="-1">Womensforum TV</a></li>
+                    <li><a href="?do=social-media-promos" tabindex="-1">Social Media Promotions</a></li>
                 </ul>
             </li>
 

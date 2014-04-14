@@ -9,5 +9,4 @@
     <p class="text-center">
         <img src="/assets/imgs/homepage/wf-content/wf17.png" alt="" />
     </p>
-
 </div>

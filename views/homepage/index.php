@@ -29,7 +29,7 @@ $content_tab    = array('content-overview', 'expert-bloggers', 'womensforum-tv',
 
     <?php if (in_array($_REQUEST['do'], $content_tab)) : ?>
         <link href="/assets/css/homepage/wf-content.css" rel="stylesheet">
-    <? endif ?>
+    <?php endif ?>
 
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>

@@ -44,7 +44,6 @@ class Channels {
                 continue;
             }
 
-
             $html = "";
             $i    = 0;
 

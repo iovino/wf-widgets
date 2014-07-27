@@ -8,12 +8,14 @@ $app->config('app_path'  , dirname(__DIR__));
 $app->config('thumb_dir' , '/assets/imgs/thumbnails');
 $app->config('thumb_path', $app->config('app_path') . '/public' . $app->config('thumb_dir'));
 $app->config('channels', array(
+    'schools-out',
+    'recipe',
+    'school-lunches',
     'holiday-decor',
     'holiday-recipes',
     'holiday-shopping',
     'holiday-fashion',
     'family-traditions',
-    'march-mania',
     'tailgating',
     'the-heart',
     'healthy-year-healthy-you',
@@ -36,7 +38,9 @@ $app->config('channels', array(
     'halloween',
     'breast-cancer-awareness',
     'holidays',
-    'parties-and-celebrations'
+    'parties-and-celebrations',
+    'ask-mom',
+    'personal-health'
 ));
 
 // production configuration
@@ -47,8 +51,8 @@ $app->configureMode('production', function () use ($app) {
 });
 
 // local configuration
-$app->configureMode('local', function () use ($app) {
-    $app->config('base_url', 'http://widgets');
+$app->configureMode('development', function () use ($app) {
+    $app->config('base_url', 'http://widgets.devel.escalatemedia.com');
     $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
     $app->config('debug', true);
 });
@@ -62,5 +66,11 @@ $app->configureMode('iovino', function () use ($app) {
     $app->config('base_url', 'http://widgets');
     $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
     $app->config('debug', true);
+});
 
+// Brad Webb
+$app->configureMode('webb', function () use ($app) {
+    $app->config('base_url', 'http://bridjis.com/wf/wf-widgets/public');
+    $app->config('widget_js_url', $app->config('base_url') . '/v2/widget.min.js');
+    $app->config('debug', true);
 });

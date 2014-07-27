@@ -4,10 +4,10 @@
 
     model.load = function(widget_hash, element_id, options)
     {
-        var width  = options === undefined ? 300 : options.width
-        var height = options === undefined ? 600 : options.height
+    var width  = options === undefined ? 300 : options.width
+    var height = options === undefined ? 600 : options.height
 
-        var frame = "<iframe src=\"" + host + "/widgets/" + widget_hash + "\" allowtransparency=\"false\" style=\"border: 1px solid #8c8b8b; z-index:10;\" width=\"" + width + "\" height=\"" + height + "\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" scrolling=\"no\"></iframe>";
+    var frame = "<iframe src=\"" + host + "/widgets/" + widget_hash + "\" allowtransparency=\"false\" style=\"border: 1px solid #8c8b8b; z-index:10;\" width=\"" + width + "\" height=\"" + height + "\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" scrolling=\"no\"></iframe>";
         var div   = document.getElementById(element_id);
         div.innerHTML = frame;
     };

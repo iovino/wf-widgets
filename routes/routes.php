@@ -40,6 +40,11 @@ $app->get('/examples/:page', function ($page) use ($app) {
 /**
  * The latest JS file
  */
+$app->get('/v2.1/widget.min.js', function () use ($app) {
+    $app->contentType('application/javascript');
+    $app->render('widgets_js/v2.1.php', array('app' => $app));
+});
+
 $app->get('/v2/widget.min.js', function () use ($app) {
     $app->contentType('application/javascript');
     $app->render('widgets_js/v2.php', array('app' => $app));
@@ -64,6 +69,27 @@ $app->get('/crons/channel_cache', function () use ($app) {
     $channels = new Channels($app);
     $channels->cache_channels();
 });
+
+$app->get('/crons/ct_cache', function () use ($app) {
+    $ct = new ContractorTalk($app);
+    $ct->run();
+});
+
+$app->get('/crons/pt_cache', function () use ($app) {
+    $pt = new PaintTalk($app);
+    $pt->run();
+});
+
+$app->get('/crons/et_cache', function () use ($app) {
+    $et = new ElectricianTalk($app);
+    $et->run();
+});
+
+$app->get('/crons/diy_cache', function () use ($app) {
+    $diy = new DiyChatroom($app);
+    $diy->run();
+});
+
 
 /**
  * The pollens map cron that get ran once a data

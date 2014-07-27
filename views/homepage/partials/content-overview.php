@@ -1,9 +1,6 @@
 <div class="col-lg-12 text-left wf-content">
     <h3 class="text-center">Womensforum's Content Overview</h3>
     <p>Womensforum engages more than 30 million unique visitors each month via articles, blogs, videos, shopping guides, interactive web apps, social media promotions, mobile-only content and more. With over 26 million video streams and 5 million consumer transactions each month, combined with influential voices tapping into more than 8 million fans and followers, our experienced production and editorial team produces high-quality content to connect, engage, inspire and expand the minds of millions of women and moms around the globe. As one of the largest female lifestyle publishers, Womensforum provides solutions, tips, techniques, and advice to help women live more, love deeper and be inspired.</p>
-    <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf1.png" alt="" />
-    </p>
 
     <!-- parenting -->
     <h4>Parenting</h4>
@@ -12,10 +9,10 @@
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
         <strong>Original Programming:</strong> "Ask Mom" and "MomTalk"<br>
-        <strong>Core Audience:</strong> F25-54
+        <strong>Core Audience:</strong> W25-54
     </p>
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf2.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf2.png" alt="" />
     </p>
 
     <!-- food -->
@@ -24,11 +21,10 @@
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
         <strong>Original Programming:</strong> "Kitchen Courses"<br>
-        <strong>Core Audience:</strong> F25-54<br>
-        <strong>Secondary Audience:</strong> F21-49
+        <strong>Core Audience:</strong> W18-65<br>
     </p>
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf3.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf3.png" alt="" />
     </p>
 
     <!-- Health -->
@@ -39,11 +35,11 @@
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
         <strong>Original Programming:</strong> "The Fit Fix"<br>
-        <strong>Core Audience:</strong> F25-54<br>
-        <strong>Secondary Audience:</strong> F35-64
+        <strong>Core Audience:</strong> W18-54<br>
+        <strong>Secondary Audience:</strong> W35-65+
     </p>
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf4.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf4.png" alt="" />
     </p>
 
     <!-- living -->
@@ -54,10 +50,11 @@
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
         <strong>Original Programming:</strong> "DIY Diaries" and "Inspiring Women"<br>
-        <strong>Core Audience:</strong> F25-54
+        <strong>Core Audience:</strong> W35-65+<br>
+        <strong>Secondary Audience:</strong> W25-54
     </p>
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf5.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf5.png" alt="" />
     </p>
 
     <!-- style -->
@@ -67,15 +64,12 @@
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
         <strong>Original Programming:</strong> "TREND"<br>
-        <strong>Core Audience:</strong> F18-49<br>
-        <strong>Secondary Audience:</strong> F25-54
-    </p>
-    <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf6.png" alt="" />
+        <strong>Core Audience:</strong> W18-49<br>
+        <strong>Secondary Audience:</strong> W25-54
     </p>
 
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf7.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf7.png" alt="" />
     </p>
 
     <!-- entertainment -->
@@ -85,11 +79,11 @@
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
         <strong>Original Programming:</strong> "Social Buzz"<br>
-        <strong>Core Audience:</strong> F18-49
+        <strong>Core Audience:</strong> W18-49
     </p>
 
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf8.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf8.png" alt="" />
     </p>
 
     <!-- love -->
@@ -97,10 +91,11 @@
     <p>Women in all stages of relationships can find helpful hints in Womensforum’s Love vertical—from planning a blissful wedding, making marriages work, coping with divorce, relationship success secrets, and tips from our Expert Bloggers who offer advice on all things relationships.</p>
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
-        <strong>Core Audience:</strong> F24-54
+        <strong>Core Audience:</strong> W24-54<br>
+        <strong>Secondary Audience:</strong> W18-35<br>
     </p>
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf9.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf9.png" alt="" />
     </p>
 
     <!-- savvy shoppers -->
@@ -108,10 +103,10 @@
     <p>Womensforum’s Savvy Shopper vertical is Womensforum’s Performance Platform that drives powerful performance each month. Expert Bloggers, writers, and Womensforum Editors generate demand through articles, blogs, videos and social media with more than 30 million unique visitors each month. Our influential voices stimulate consumer actions by driving more than 5 million consumer transactions each month via registrations, leads, consumer promotions, coupon downloads, and retail promo codes. Through our shopping guides for every season, frugal finds, product promotions, shopper secrets, reviews, and contests, our Experts drive hundreds of thousands of purchase via e-commerce transactions and in-store product sales.</p>
     <p>
         <strong>Content Types:</strong> Articles, Expert Blogs, & Videos with Social Media Promotions<br>
-        <strong>Core Audience:</strong> F24-54
+        <strong>Core Audience:</strong> W24-54
     </p>
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf10.png" alt="" />
+        <img style="height: 400px;" src="/assets/imgs/homepage/wf-content/wf10.png" alt="" />
     </p>
 
     <h4>Seasonal Content</h4>

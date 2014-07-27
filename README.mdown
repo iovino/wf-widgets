@@ -26,7 +26,7 @@ Create a developer specific config mode in /config/config.php and commit that to
 	   $app->config('debug', true);
 	});
 
-Open app.php and change the environment mode to your local mode, in this case, change 'production' to 'iovino' or whatever you used. Typically your last name.
+Copy app.sample.php to a new file called app.php and change the environment mode to your local mode, in this case, change 'production' to 'iovino' or whatever you used. Typically your last name.
 
 Now we'll create a virtual host for the app so we can access it using a local URL.
 
@@ -61,3 +61,17 @@ You'll probably notice that some widgets are missing their content and thumbnail
 
 	http://widgets/crons/channel_cache
 	http://widgets/crons/pollen-data
+
+## Deploying Changes Using Capistrano
+
+First make sure that you have capistrano installed on your machine. You can install it using the following command:
+
+	gem install capistrano
+
+Once installed, you can push changes to the server after you have commited them to github by using the following command:
+
+	cap deploy
+
+If you need to rollback to an older version, you can do so by using the following command (change the version number to the one you want to rollback to):
+
+	cap deploy:rollback -s previous_release=/home/widgets/releases/20140411011622

@@ -1,7 +1,11 @@
 <div class="col-lg-12 text-left wf-content">
     <h3 class="text-center">Womensforum TV</h3>
     <p class="text-center"><strong>WomensforumTV is your visual partner in engaging content that women love.</strong></p>
-
+<script src='http://cdn.onescreen.net/os/static/apps/1.9/_onescreen.js'></script>
+<div style="width:640px;margin:0 auto 15px auto;" id='os_dmp_embed'></div>
+<script>com.onescreen.widgets.load('18963-391d12dc71d069d4725eb33a42c74775', 'os_dmp_embed');
+</script>
+<noscript>This application requires JavaScript.</noscript>
     <h4>Branded Content</h4>
     <p>Womensforum.com produces high-quality branded videos with your brand/ product/ messaging points mentioned or used on-camera.</p>
 

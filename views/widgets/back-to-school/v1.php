@@ -27,11 +27,6 @@
             </ul>
 
 		</div>
-        <div id="wf_holiday_footer">
-            <a href="http://www.motts.com/" target="_blank">
-                <img src="<?php echo $this->app->config('base_url'); ?>/assets/imgs/back-to-school/ad.png" />
-            </a>
-        </div>
 	</div>
 </body>
 </html>

@@ -15,3 +15,9 @@
     <h3>Video</h3>
     <img src="/assets/imgs/homepage/reskin/WFHomepage_Reskin1.png" border="0" width="1100" />
 </div>
+
+<div class="col-lg-12 text-center">
+    <h3>Social</h3>
+    <img src="/assets/imgs/homepage/reskin/Target-BTS-Apparel.png" border="0" width="1100" />
+</div>
+

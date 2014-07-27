@@ -12,11 +12,12 @@ end
 host = '184.106.165.121'
 
 set :application, "countdown"
-set :repository,  "git@github.com:iovino/wf-widgets.git"
+set :repository,  "git@github.com:EscalateMedia/wf-widgets.git"
 set :deploy_to,   "/home/widgets"
 set :user,        'root'
+set :password,    'idNB253Flemp'
 set :scm,         'git'
-set :keep_releases, 5                               # max number of release 
+set :keep_releases, 10                               # max number of release
 set :deploy_via, :remote_cache                      # delete cache if you rename git url
 set :branch, current_branch
 set :ssh_options, { :forward_agent => true }
@@ -39,10 +40,13 @@ namespace :deploy do
     sudo "ln -s #{shared_path}/pollen-maps #{release_path}/public/assets/imgs/spring-fling/pollen-maps"
     sudo "chmod 0777 #{release_path}/public/assets/imgs/spring-fling/pollen-maps"
 
+    # create app.php file
+    sudo "cp #{release_path}/app.sample.php #{release_path}/app.php"
+
     puts "Linked shared directories"
   end
 
 end
 
 after 'deploy', 'deploy:link_shared_dirs'
-after "deploy:restart", "deploy:cleanup"
+after "deploy:link_shared_dirs", "deploy:cleanup"

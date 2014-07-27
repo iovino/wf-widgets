@@ -4,9 +4,9 @@
     <p>Social media products and capabilities include: sponsored social media posts; promotions for events, products and services; social events such as Twitter parties; branded cover photos; sweepstakes and contests; and more!</p>
 
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf16.png" alt="" />
+        <img src="/assets/imgs/homepage/wf-content/wf16.png" height="400" alt="" />
     </p>
     <p class="text-center">
-        <img src="/assets/imgs/homepage/wf-content/wf17.png" alt="" />
+        <img src="/assets/imgs/homepage/wf-content/wf17.png" height="400" alt="" />
     </p>
 </div>

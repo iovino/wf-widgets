@@ -22,6 +22,6 @@
 <div class="container">
     <div class="col-lg-12 text-center">
         <h3>970x66</h3>
-        <iframe src="/assets/imgs/homepage/slots.php" width="970" height="420" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" frameborder="0" allowtransparency="false"></iframe>
+        <iframe src="/assets/imgs/homepage/games/slots.php" width="970" height="420" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" frameborder="0" allowtransparency="false"></iframe>
     </div>
 </div>

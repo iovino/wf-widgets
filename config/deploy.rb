@@ -15,7 +15,6 @@ set :application, "countdown"
 set :repository,  "git@github.com:EscalateMedia/wf-widgets.git"
 set :deploy_to,   "/home/widgets"
 set :user,        'root'
-set :password,    'idNB253Flemp'
 set :scm,         'git'
 set :keep_releases, 10                               # max number of release
 set :deploy_via, :remote_cache                      # delete cache if you rename git url
